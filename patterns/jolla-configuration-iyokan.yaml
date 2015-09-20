@@ -1,0 +1,10 @@
+# Feel free to disable non-critical HA parts during devel by commenting lines out
+# Generated in hadk by executing: rpm/dhd/helpers/add_new_device.sh
+
+Description: Pattern with packages for iyokan configurations
+Name: jolla-configuration-iyokan
+Requires:
+- pattern:jolla-hw-adaptation-iyokan
+- pattern:jolla-configuration-2011xperia
+
+Summary: Jolla Configuration iyokan

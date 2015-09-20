@@ -1,0 +1,18 @@
+# Feel free to disable non-critical HA parts during devel by commenting lines out
+# Generated in hadk by executing: rpm/dhd/helpers/add_new_device.sh
+
+Description: Pattern with packages for urushi HW Adaptation
+Name: jolla-hw-adaptation-urushi
+Requires:
+- pattern:jolla-hw-adaptation-2011xperia
+
+- droid-hal-urushi
+- droid-hal-urushi-img-boot
+- droid-hal-urushi-kernel-modules
+- droid-config-urushi-sailfish
+- droid-config-urushi-pulseaudio-settings
+- droid-config-urushi-policy-settings
+- droid-config-urushi-preinit-plugin
+- droid-hal-version-urushi
+
+Summary: Jolla HW Adaptation urushi

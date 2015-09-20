@@ -1,0 +1,18 @@
+# Feel free to disable non-critical HA parts during devel by commenting lines out
+# Generated in hadk by executing: rpm/dhd/helpers/add_new_device.sh
+
+Description: Pattern with packages for anzu HW Adaptation
+Name: jolla-hw-adaptation-anzu
+Requires:
+- pattern:jolla-hw-adaptation-2011xperia
+
+- droid-hal-anzu
+- droid-hal-anzu-img-boot
+- droid-hal-anzu-kernel-modules
+- droid-config-anzu-sailfish
+- droid-config-anzu-pulseaudio-settings
+- droid-config-anzu-policy-settings
+- droid-config-anzu-preinit-plugin
+- droid-hal-version-anzu
+
+Summary: Jolla HW Adaptation anzu

@@ -1,0 +1,18 @@
+# Feel free to disable non-critical HA parts during devel by commenting lines out
+# Generated in hadk by executing: rpm/dhd/helpers/add_new_device.sh
+
+Description: Pattern with packages for coconut HW Adaptation
+Name: jolla-hw-adaptation-coconut
+Requires:
+- pattern:jolla-hw-adaptation-2011xperia
+
+- droid-hal-coconut
+- droid-hal-coconut-img-boot
+- droid-hal-coconut-kernel-coconut
+- droid-config-coconut-sailfish
+- droid-config-coconut-pulseaudio-settings
+- droid-config-coconut-policy-settings
+- droid-config-coconut-preinit-plugin
+- droid-hal-version-coconut
+
+Summary: Jolla HW Adaptation coconut

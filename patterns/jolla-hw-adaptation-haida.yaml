@@ -1,0 +1,18 @@
+# Feel free to disable non-critical HA parts during devel by commenting lines out
+# Generated in hadk by executing: rpm/dhd/helpers/add_new_device.sh
+
+Description: Pattern with packages for haida HW Adaptation
+Name: jolla-hw-adaptation-haida
+Requires:
+- pattern:jolla-hw-adaptation-2011xperia
+
+- droid-hal-haida
+- droid-hal-haida-img-boot
+- droid-hal-haida-kernel-modules
+- droid-config-haida-sailfish
+- droid-config-haida-pulseaudio-settings
+- droid-config-haida-policy-settings
+- droid-config-haida-preinit-plugin
+- droid-hal-version-haida
+
+Summary: Jolla HW Adaptation haida

@@ -1,0 +1,10 @@
+# Feel free to disable non-critical HA parts during devel by commenting lines out
+# Generated in hadk by executing: rpm/dhd/helpers/add_new_device.sh
+
+Description: Pattern with packages for mango configurations
+Name: jolla-configuration-mango
+Requires:
+- pattern:jolla-hw-adaptation-mango
+- pattern:jolla-configuration-2011xperia
+
+Summary: Jolla Configuration mango

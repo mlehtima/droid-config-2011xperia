@@ -1,0 +1,18 @@
+# Feel free to disable non-critical HA parts during devel by commenting lines out
+# Generated in hadk by executing: rpm/dhd/helpers/add_new_device.sh
+
+Description: Pattern with packages for mango HW Adaptation
+Name: jolla-hw-adaptation-mango
+Requires:
+- pattern:jolla-hw-adaptation-2011xperia
+
+- droid-hal-mango
+- droid-hal-mango-img-boot
+- droid-hal-mango-kernel-modules
+- droid-config-mango-sailfish
+- droid-config-mango-pulseaudio-settings
+- droid-config-mango-policy-settings
+- droid-config-mango-preinit-plugin
+- droid-hal-version-mango
+
+Summary: Jolla HW Adaptation mango

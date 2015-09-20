@@ -1,0 +1,59 @@
+# Feel free to disable non-critical HA parts during devel by commenting lines out
+# Generated in hadk by executing: rpm/dhd/helpers/add_new_device.sh
+
+Description: Pattern with packages for 2011 Xperias HW Adaptation
+Name: jolla-hw-adaptation-2011xperia
+Requires:
+- pattern:jolla-hw-adaptation-hybris
+- pattern:jolla-hw-adaptation-hybris-droid-vibrator
+- pattern:jolla-ui-configuration-2011xperia
+
+- pulseaudio-modules-droid
+
+# These need to be per-device due to differing backends (fbdev, eglfs, hwc, ..?)
+- qt5-qtwayland-wayland_egl
+- qt5-qpa-hwcomposer-plugin
+- qtscenegraph-adaptation
+
+# Add GStreamer v1.0 as standard
+- gstreamer1.0
+- gstreamer1.0-plugins-good
+- gstreamer1.0-plugins-base
+- gstreamer1.0-plugins-bad
+- nemo-gstreamer1.0-interfaces
+
+- gstreamer1.0-droid
+
+# This is needed for notification LEDs
+- mce-plugin-libhybris
+
+## USB mode controller
+# Enables mode selector upon plugging USB cable:
+- usb-moded
+- usb-moded-defaults-android
+- usb-moded-developer-mode-android
+- usb-moded-pc-suite-mode-android
+
+# Extra useful modes not officially supported:
+# working but careful with roaming!
+- usb-moded-connection-sharing-android-config
+
+# from update13, this is needed explicitly
+- bluez-configs-sailfish
+# hammerhead, grouper, and maguro use this in scripts, so include for all
+- rfkill
+
+# enable device lock and allow to select untrusted software
+- jolla-devicelock-plugin-encsfa
+
+# additional packages
+- zramswap
+
+# needed after 1.1.4
+- jolla-settings-layout
+
+# gps support
+- geoclue-provider-hybris-community
+
+Summary: Jolla HW Adaptation 2011 Xperias
+

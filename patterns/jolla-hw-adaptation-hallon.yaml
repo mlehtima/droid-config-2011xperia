@@ -1,0 +1,18 @@
+# Feel free to disable non-critical HA parts during devel by commenting lines out
+# Generated in hadk by executing: rpm/dhd/helpers/add_new_device.sh
+
+Description: Pattern with packages for hallon HW Adaptation
+Name: jolla-hw-adaptation-hallon
+Requires:
+- pattern:jolla-hw-adaptation-2011xperia
+
+- droid-hal-hallon
+- droid-hal-hallon-img-boot
+- droid-hal-hallon-kernel-modules
+- droid-config-hallon-sailfish
+- droid-config-hallon-pulseaudio-settings
+- droid-config-hallon-policy-settings
+- droid-config-hallon-preinit-plugin
+- droid-hal-version-hallon
+
+Summary: Jolla HW Adaptation hallon

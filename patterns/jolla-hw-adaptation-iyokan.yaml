@@ -1,0 +1,18 @@
+# Feel free to disable non-critical HA parts during devel by commenting lines out
+# Generated in hadk by executing: rpm/dhd/helpers/add_new_device.sh
+
+Description: Pattern with packages for iyokan HW Adaptation
+Name: jolla-hw-adaptation-iyokan
+Requires:
+- pattern:jolla-hw-adaptation-2011xperia
+
+- droid-hal-iyokan
+- droid-hal-iyokan-img-boot
+- droid-hal-iyokan-kernel-modules
+- droid-config-iyokan-sailfish
+- droid-config-iyokan-pulseaudio-settings
+- droid-config-iyokan-policy-settings
+- droid-config-iyokan-preinit-plugin
+- droid-hal-version-iyokan
+
+Summary: Jolla HW Adaptation iyokan

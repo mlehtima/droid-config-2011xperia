@@ -1,0 +1,18 @@
+# Feel free to disable non-critical HA parts during devel by commenting lines out
+# Generated in hadk by executing: rpm/dhd/helpers/add_new_device.sh
+
+Description: Pattern with packages for smultron HW Adaptation
+Name: jolla-hw-adaptation-smultron
+Requires:
+- pattern:jolla-hw-adaptation-2011xperia
+
+- droid-hal-smultron
+- droid-hal-smultron-img-boot
+- droid-hal-smultron-kernel-modules
+- droid-config-smultron-sailfish
+- droid-config-smultron-pulseaudio-settings
+- droid-config-smultron-policy-settings
+- droid-config-smultron-preinit-plugin
+- droid-hal-version-smultron
+
+Summary: Jolla HW Adaptation smultron
