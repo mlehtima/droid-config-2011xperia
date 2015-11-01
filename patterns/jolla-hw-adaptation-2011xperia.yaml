@@ -55,5 +55,12 @@ Requires:
 # gps support
 - geoclue-provider-hybris-community
 
+# Since 1.1.9 this needs to be added explicitly for cellular devices
+- pattern:jolla-sailfish-cellular-apps
+- telepathy-ring
+
+# needed for audio recording
+- qt5-qtmultimedia-plugin-mediaservice-gstmediacapture
+
 Summary: Jolla HW Adaptation 2011 Xperias
 

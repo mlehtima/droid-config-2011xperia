@@ -1,0 +1,12 @@
+[apps/jolla-camera/primary/image]
+imageResolution='2592x1458'
+flashValues=[1, 2, 4]
+imageResolution_4_3='2592x1944'
+imageResolution_16_9='2592x1458'
+resolutionText_4_3='4:3 (5 MPx)'
+resolutionText_16_9='16:9 (4 MPx)'
+
+[apps/jolla-camera/primary/video]
+flashValues=[2, 4]
+
+

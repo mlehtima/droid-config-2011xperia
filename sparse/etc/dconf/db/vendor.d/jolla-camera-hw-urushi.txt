@@ -1,0 +1,12 @@
+[apps/jolla-camera/primary/image]
+imageResolution='3264x1836'
+flashValues=[2]
+imageResolution_4_3='3264x2448'
+imageResolution_16_9='3264x1836'
+resolutionText_4_3='camera_settings-me-4-3-8m'
+resolutionText_16_9='camera_settings-me-16-9-6m'
+
+[apps/jolla-camera/primary/video]
+flashValues=[2]
+
+

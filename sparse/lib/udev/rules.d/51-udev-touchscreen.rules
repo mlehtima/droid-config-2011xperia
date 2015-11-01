@@ -1,2 +1,4 @@
 # Create /dev/touchscreen symlink for first found multitouch event device.
 KERNEL=="event*", SUBSYSTEM=="input", ATTRS{name}=="cyttsp-spi", ACTION=="add", TEST!="/dev/touchscreen", SYMLINK+="touchscreen"
+KERNEL=="event*", SUBSYSTEM=="input", ATTRS{name}=="cy8ctma300_touch", ACTION=="add", TEST!="/dev/touchscreen", SYMLINK+="touchscreen"
+KERNEL=="event*", SUBSYSTEM=="input", ATTRS{name}=="clearpad", ACTION=="add", TEST!="/dev/touchscreen", SYMLINK+="touchscreen"
