@@ -14,6 +14,10 @@
 # We assume most devices will
 %define have_modem 1
 
+%define exclude_files \
+/etc/dconf/db/vendor.d/jolla-camera-hw-(anzu|coconut|haida|hallon|iyokan|mango|smultron|urushi).txt\
+%{nil}
+
 Provides: sensord-configs
 
 %include droid-configs-device/droid-configs.inc
