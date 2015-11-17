@@ -15,7 +15,14 @@
 %define have_modem 1
 
 %define exclude_files \
-/etc/dconf/db/vendor.d/jolla-camera-hw-(coconut|haida|hallon|iyokan|mango|satsuma|smultron|urushi).txt\
+/etc/dconf/db/vendor.d/jolla-camera-hw-coconut.txt\
+/etc/dconf/db/vendor.d/jolla-camera-hw-haida.txt\
+/etc/dconf/db/vendor.d/jolla-camera-hw-hallon.txt\
+/etc/dconf/db/vendor.d/jolla-camera-hw-iyokan.txt\
+/etc/dconf/db/vendor.d/jolla-camera-hw-mango.txt\
+/etc/dconf/db/vendor.d/jolla-camera-hw-satsuma.txt\
+/etc/dconf/db/vendor.d/jolla-camera-hw-smultron.txt\
+/etc/dconf/db/vendor.d/jolla-camera-hw-urushi.txt\
 %{nil}
 
 Provides: sensord-configs
