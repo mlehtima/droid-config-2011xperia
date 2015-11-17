@@ -1,4 +1,4 @@
 [submodule "droid-configs-device"]
 	path = droid-configs-device
-	branch = exclude_fix
 	url = https://github.com/mlehtima/droid-hal-configs
+	branch = exclude_fix
