@@ -6,3 +6,11 @@ etc/dconf/db/vendor.d/jolla-camera-hw-mango.txt
 etc/dconf/db/vendor.d/jolla-camera-hw-satsuma.txt
 etc/dconf/db/vendor.d/jolla-camera-hw-smultron.txt
 etc/dconf/db/vendor.d/jolla-camera-hw-urushi.txt
+var/lib/environment/compositor/droid-hal-device-coconut.conf
+var/lib/environment/compositor/droid-hal-device-haida.conf
+var/lib/environment/compositor/droid-hal-device-hallon.conf
+var/lib/environment/compositor/droid-hal-device-iyokan.conf
+var/lib/environment/compositor/droid-hal-device-mango.conf
+var/lib/environment/compositor/droid-hal-device-satsuma.conf
+var/lib/environment/compositor/droid-hal-device-smultron.conf
+var/lib/environment/compositor/droid-hal-device-urushi.conf
