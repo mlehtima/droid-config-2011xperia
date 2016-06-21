@@ -9,6 +9,8 @@ Requires:
 - pattern:jolla-ui-configuration-2011xperia
 
 - pulseaudio-modules-droid
+# for audio recording to work:
+- qt5-qtmultimedia-plugin-mediaservice-gstmediacapture
 
 # These need to be per-device due to differing backends (fbdev, eglfs, hwc, ..?)
 - qt5-qtwayland-wayland_egl
@@ -46,21 +48,18 @@ Requires:
 # enable device lock and allow to select untrusted software
 - jolla-devicelock-plugin-encsfa
 
-# additional packages
-- zramswap
-
-# needed after 1.1.4
+# Settings app needs this since update15
 - jolla-settings-layout
 
-# gps support
-- geoclue-provider-hybris-community
-
-# Since 1.1.9 this needs to be added explicitly for cellular devices
+# For devices with working cellular modem:
 - pattern:jolla-sailfish-cellular-apps
 - telepathy-ring
 
-# needed for audio recording
-- qt5-qtmultimedia-plugin-mediaservice-gstmediacapture
+# For devices where test_gps eventually gets a fix:
+- geoclue-provider-hybris
+
+# additional packages
+- zramswap
 
 Summary: Jolla HW Adaptation 2011 Xperias
 
