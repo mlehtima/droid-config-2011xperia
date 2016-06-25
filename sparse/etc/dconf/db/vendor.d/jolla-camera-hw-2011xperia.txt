@@ -23,9 +23,9 @@ resolutionText_4_3='4:3 (0.3 MPx)'
 focusDistance=4
 
 [apps/jolla-camera/primary/video]
-imageResolution='1280x720'
-videoResolution='1280x720'
-viewfinderResolution='1280x720'
+imageResolution='864x480'
+videoResolution='864x480'
+viewfinderResolution='864x480'
 isoValues=[0, 100, 200, 400]
 whiteBalanceValues=[0, 3, 2, 6, 5]
 focusDistanceValues=[8, 4, 16, 2, 32]
