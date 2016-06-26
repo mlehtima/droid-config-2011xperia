@@ -7,6 +7,4 @@ resolutionText_4_3='4:3 (5 MPx)'
 resolutionText_16_9='16:9 (4 MPx)'
 
 [apps/jolla-camera/primary/video]
-flashValues=[2, 4]
-
-
+flashValues=[2, 32]
