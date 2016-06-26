@@ -8,7 +8,7 @@ Requires:
 
 - droid-hal-coconut
 - droid-hal-coconut-img-boot
-- droid-hal-coconut-kernel-coconut
+- droid-hal-coconut-kernel-modules
 - droid-config-coconut-sailfish
 - droid-config-coconut-pulseaudio-settings
 - droid-config-coconut-policy-settings
