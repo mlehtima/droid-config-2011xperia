@@ -1,8 +1,8 @@
 [apps/jolla-camera/primary/image]
-imageResolution='2592x1458'
+imageResolution='2560x1440'
 flashValues=[1, 2, 4]
 imageResolution_4_3='2592x1944'
-imageResolution_16_9='2592x1458'
+imageResolution_16_9='2560x1440'
 resolutionText_4_3='4:3 (5 MPx)'
 resolutionText_16_9='16:9 (4 MPx)'
 
