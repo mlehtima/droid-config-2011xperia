@@ -61,5 +61,8 @@ Requires:
 # additional packages
 - zramswap
 
+# Flashlight
+- jolla-settings-system-flashlight
+
 Summary: Jolla HW Adaptation 2011 Xperias
 
