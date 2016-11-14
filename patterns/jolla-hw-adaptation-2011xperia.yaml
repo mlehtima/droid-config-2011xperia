@@ -5,7 +5,7 @@ Description: Pattern with packages for 2011 Xperias HW Adaptation
 Name: jolla-hw-adaptation-2011xperia
 Requires:
 - pattern:jolla-hw-adaptation-hybris
-- pattern:jolla-hw-adaptation-hybris-droid-vibrator
+#- pattern:jolla-hw-adaptation-hybris-droid-vibrator
 - pattern:jolla-ui-configuration-2011xperia
 
 - pulseaudio-modules-droid
@@ -62,6 +62,9 @@ Requires:
 
 # Flashlight
 - jolla-settings-system-flashlight
+
+# ffmemless vibrator
+- qt5-feedback-haptics-ffmemless
 
 Summary: Jolla HW Adaptation 2011 Xperias
 
