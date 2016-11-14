@@ -34,7 +34,6 @@ Requires:
 - usb-moded
 - usb-moded-defaults-android
 - usb-moded-developer-mode-android
-- usb-moded-pc-suite-mode-android
 
 # Extra useful modes not officially supported:
 # working but careful with roaming!
