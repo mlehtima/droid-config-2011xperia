@@ -19,7 +19,6 @@ flashValues=[2]
 exposureCompensationValues=[4, 2, 0, -2, -4]
 imageResolution_4_3='640x480'
 viewfinderResolution_4_3='640x480'
-resolutionText_4_3='4:3 (0.3 MPx)'
 focusDistance=4
 
 [apps/jolla-camera/primary/video]
