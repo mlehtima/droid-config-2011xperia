@@ -1,6 +1,3 @@
-# Feel free to disable non-critical HA parts during devel by commenting lines out
-# Generated in hadk by executing: rpm/dhd/helpers/add_new_device.sh
-
 Description: Pattern with packages for satsuma HW Adaptation
 Name: jolla-hw-adaptation-satsuma
 Requires:
@@ -13,6 +10,8 @@ Requires:
 - droid-config-satsuma-pulseaudio-settings
 - droid-config-satsuma-policy-settings
 - droid-config-satsuma-preinit-plugin
+- droid-config-satsuma-flashing
+- droid-config-satsuma-bluez4
 - droid-hal-version-satsuma
 
 Summary: Jolla HW Adaptation satsuma

@@ -1,6 +1,3 @@
-# Feel free to disable non-critical HA parts during devel by commenting lines out
-# Generated in hadk by executing: rpm/dhd/helpers/add_new_device.sh
-
 Description: Pattern with packages for anzu HW Adaptation
 Name: jolla-hw-adaptation-anzu
 Requires:
@@ -13,6 +10,8 @@ Requires:
 - droid-config-anzu-pulseaudio-settings
 - droid-config-anzu-policy-settings
 - droid-config-anzu-preinit-plugin
+- droid-config-anzu-flashing
+- droid-config-anzu-bluez4
 - droid-hal-version-anzu
 
 Summary: Jolla HW Adaptation anzu

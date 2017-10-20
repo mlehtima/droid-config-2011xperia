@@ -1,6 +1,3 @@
-# Feel free to disable non-critical HA parts during devel by commenting lines out
-# Generated in hadk by executing: rpm/dhd/helpers/add_new_device.sh
-
 Description: Pattern with packages for iyokan HW Adaptation
 Name: jolla-hw-adaptation-iyokan
 Requires:
@@ -13,6 +10,8 @@ Requires:
 - droid-config-iyokan-pulseaudio-settings
 - droid-config-iyokan-policy-settings
 - droid-config-iyokan-preinit-plugin
+- droid-config-iyokan-flashing
+- droid-config-iyokan-bluez4
 - droid-hal-version-iyokan
 
 Summary: Jolla HW Adaptation iyokan
